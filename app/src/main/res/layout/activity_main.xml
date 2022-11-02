@@ -1,104 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
 
-<RelativeLayout
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="5dp"
-    tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:scrollbars="vertical"
-        android:text="Hello, let's lean more about nutrients and calories on fruits!"
-        android:textSize="18sp" />
-
-    <ImageView
-        android:id="@+id/banana"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="320dp"
-        android:layout_marginBottom="571dp"
-        app:srcCompat="@drawable/banana" />
-
-    <ImageView
-        android:id="@+id/coconut"
-        android:layout_width="wrap_content"
-        android:layout_height="102dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="279dp"
-        android:layout_marginBottom="455dp"
-        app:srcCompat="@drawable/coconut" />
-
-    <ImageView
-        android:id="@+id/ponkam"
-        android:layout_width="77dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="323dp"
-        android:layout_marginBottom="345dp"
-        app:srcCompat="@drawable/ponkam" />
-
-    <ImageView
-        android:id="@+id/grape"
-        android:layout_width="79dp"
-        android:layout_height="109dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="267dp"
-        android:layout_marginBottom="202dp"
-        app:srcCompat="@drawable/grape" />
-
-    <ImageView
-        android:id="@+id/strawberry"
-        android:layout_width="88dp"
-        android:layout_height="86dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="328dp"
-        android:layout_marginBottom="99dp"
-        app:srcCompat="@drawable/strawberry" />
-
-    <ImageView
-        android:id="@+id/pineapple"
-        android:layout_width="wrap_content"
-        android:layout_height="107dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="327dp"
-        android:layout_marginBottom="-22dp"
-        app:srcCompat="@drawable/pineapple" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="262dp"
-        android:layout_height="645dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="6dp"
-        android:text="The gameplay is heavily based around Norse mythology, wherein the characters are taken from the stories around Ragnarök. Player characters interact in a 3D environment but are represented by 2D character sprites for front, back, side and diagonal facings. The major types of server-supported gameplay are Player vs Environment, Guild vs Guild, Player vs Player. Also supported by the game server are Group vs Group, Arena Combat, Player vs Monster, Player vs All, and various other specific scenarios at designated instance locations in the game world. Non-player character-run challenges and contests are also available with prizes, awards, and/or in a specific hall of fame listing.
-
-Players can sign up for quests and submit them for rewards as well as access storage and teleport services for a small fee. Every town will have the usual stores and shops where players can purchase and sell their items. The stores differ from city to city because each city is affiliated with a different job that players can choose from; therefore, the goods each sell are relatively for that particular job that the city is affiliated with. Quests usually provide a unique reward such as learning a new skill or receiving a rare item.
-
-The job system initially consisted of 13 classes, which has increased to over 50 via several updates. Each class specializes in certain skills corresponding to archetypes in a role-playing game. Additionally, numerous equipment are exclusive to particular classes. The greatness of the equipment depends on the character attribute status.
-
-Once a player reaches player level 99 and job level 50, they can 'rebirth' their character (not applicable to expansion classes and Super Novices). Rebirthing brings a character back to level 1 for both player level and job level. Reborn characters generally work the same as regular characters up until the second class. Instead of a second class, characters that are born can transcend to a new second job, different from those of a character that hasn't been reborn. These transcended job types have more skills and a larger number of 'stat points' to allocate to characters compared to second classes. The experience curve for transcendent jobs is significantly higher. Players are given the option to advance onto their third classes which provide an additional set of skills as well as allowing with player to break through the traditional level cap of 99."
-        android:textSize="14dp" />
+        android:orientation="horizontal">
 
 
-</RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/banana" />
+
+            <ImageView
+                android:layout_width="104dp"
+                android:layout_height="90dp"
+                android:background="@drawable/coconut" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="31dp">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LALAALLAALALALALLALAALALALALALALALALAALALAALALALALALAAL"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="0dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 </ScrollView>
