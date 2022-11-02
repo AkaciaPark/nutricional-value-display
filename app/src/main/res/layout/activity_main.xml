@@ -47,8 +47,23 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="138dp"
+                android:layout_height="108dp"
                 android:background="@drawable/pineapple" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mango"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:background="@drawable/pear" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:background="@drawable/watermelon" />
 
 
         </LinearLayout>
@@ -65,25 +80,23 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Calories: 105"
+                android:text="1.Description: Banana \n2. Calories: \n3.Potassium:\n4.Calcium:\n5. Vitamin A:"
                 android:textSize="14dp"
                 android:paddingTop="15dp"
+                android:paddingLeft="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sugar: 19g"
+                android:paddingLeft="10dp"
+                android:text="\n1.Description:Coconut\n2.Calories:\n3.Calcium:\n4.VitaminaA:"
                 android:textSize="14dp"
                 app:layout_constraintTop_toBottomOf="@+id/textView"
                 tools:layout_editor_absoluteX="0dp" />
 
-            <TextView
-                android:layout_width="138dp"
-                android:layout_height="wrap_content"
-                android:text="Vitamin A: 2% DV" />
 
         </LinearLayout>
 
