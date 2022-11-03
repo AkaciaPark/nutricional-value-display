@@ -5,21 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:padding="7dp"
-    >
+    android:padding="7dp">
 
 
     <LinearLayout
 
+
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="horizontal">
+
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:src="@drawable/fruits" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="-------------"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -82,6 +95,21 @@
 
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                android:paddingLeft="10dp"
+                android:text="Hello :) \nWelcome to the Nutricional Value Display!\nLet's learn about nutrients and calories on fruits!\n"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-------------------------------------------------------"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -116,7 +144,7 @@
 
             <TextView
                 android:id="@+id/GrapeText"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="124dp"
                 android:paddingLeft="10dp"
                 android:paddingTop="15dp"
@@ -125,48 +153,48 @@
 
             <TextView
                 android:id="@+id/StrawberryText"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="6dp"
                 android:text="1. Name:Strawberry \n2. Calories: 30kcal \n3. Proteins: 1g\n4. Vitamin C: 63,6mg\n5. Potassium: 153mg"
-                android:textSize="16dp"/>
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/PineappleText"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:text="1. Name: Pineapple\n2. Calories: 50kcal \n3. Proteins: 0,8g \n4. Vitamin C: 40mg \n5. Potassium: 145mg"
-                android:textSize="16dp"/>
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/MangoText"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="14dp"
                 android:text="1. Name: Mango\n2. Calories: 60kcal \n3. Proteins: 0,8g \n4. Vitamin C: 22mg \n5. Potassium: 145mg"
-                android:textSize="16dp"/>
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/PearText"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="12dp"
                 android:text="1. Name: Pear\n2. Calories: 60,6kcal \n3. Proteins: 0,2g \n4. Vitamin C: 2,4mg \n5. Potassium: 126,2mg"
-                android:textSize="16dp"/>
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/WatermelonText"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="14dp"
                 android:text="1. Name:Watermelon\n2. Calories: 33kcal\n3. Proteins: 0,9g \n4. Vitamin C: 8,1mg \n5. Potassium: 104mg"
-                android:textSize="16dp"/>
+                android:textSize="16dp" />
 
 
         </LinearLayout>
