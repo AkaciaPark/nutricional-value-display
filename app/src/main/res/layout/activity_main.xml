@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:padding="7dp">
+    android:padding="7dp"
+    android:background="@color/purple_200">
+
 
 
     <LinearLayout
@@ -37,12 +39,11 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="113dp"
-                android:src="@drawable/banana" />
+                android:src="@drawable/banana_removebg_preview" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-
                 android:src="@drawable/coconut" />
 
             <ImageView
@@ -113,9 +114,8 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingTop="12dp"
-
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
                 android:text="1. Name: Banana \n2. Calories: 86,8kcal \n3. Proteins: 1,35g\n4. Vitamin C: 10,5mg\n5. Potassium: 264,4mg"
                 android:textSize="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -126,8 +126,8 @@
                 android:id="@+id/CoconutText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingTop="12dp"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
                 android:text="1. Name: Coconut \n2. Calories: 27kcal \n3. Proteins: 3,7g\n4. Vitamin C: 2,4mg\n5. Potassium: 354,2mg"
                 android:textSize="16dp"
                 app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -137,8 +137,8 @@
                 android:id="@+id/PonkamText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingTop="12dp"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
                 android:text="1. Name: Ponkam\n2. Calories: 38kcal \n3. Proteins: 0,8g \n4. Vitamin C: 48,8mg \n5. Potassium: 140mg"
                 android:textSize="16dp" />
 
@@ -146,8 +146,8 @@
                 android:id="@+id/GrapeText"
                 android:layout_width="match_parent"
                 android:layout_height="124dp"
-                android:paddingLeft="10dp"
-                android:paddingTop="15dp"
+                android:paddingLeft="50dp"
+                android:paddingTop="12dp"
                 android:text="1. Name: Grape\n2. Calories: 75kcal\n3. Proteins: 1,2g \n4. Vitamin C: 3,5mg\n5. Potassium: 160mg"
                 android:textSize="16dp" />
 
@@ -155,16 +155,16 @@
                 android:id="@+id/StrawberryText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingLeft="50dp"
                 android:paddingTop="6dp"
-                android:text="1. Name:Strawberry \n2. Calories: 30kcal \n3. Proteins: 1g\n4. Vitamin C: 63,6mg\n5. Potassium: 153mg"
+                android:text="1. Name: Strawberry \n2. Calories: 30kcal \n3. Proteins: 1g\n4. Vitamin C: 63,6mg\n5. Potassium: 153mg"
                 android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/PineappleText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingLeft="50dp"
                 android:paddingTop="10dp"
                 android:text="1. Name: Pineapple\n2. Calories: 50kcal \n3. Proteins: 0,8g \n4. Vitamin C: 40mg \n5. Potassium: 145mg"
                 android:textSize="16dp" />
@@ -173,7 +173,7 @@
                 android:id="@+id/MangoText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingLeft="50dp"
                 android:paddingTop="14dp"
                 android:text="1. Name: Mango\n2. Calories: 60kcal \n3. Proteins: 0,8g \n4. Vitamin C: 22mg \n5. Potassium: 145mg"
                 android:textSize="16dp" />
@@ -182,7 +182,7 @@
                 android:id="@+id/PearText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingLeft="50dp"
                 android:paddingTop="12dp"
                 android:text="1. Name: Pear\n2. Calories: 60,6kcal \n3. Proteins: 0,2g \n4. Vitamin C: 2,4mg \n5. Potassium: 126,2mg"
                 android:textSize="16dp" />
@@ -191,7 +191,7 @@
                 android:id="@+id/WatermelonText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingLeft="50dp"
                 android:paddingTop="14dp"
                 android:text="1. Name:Watermelon\n2. Calories: 33kcal\n3. Proteins: 0,9g \n4. Vitamin C: 8,1mg \n5. Potassium: 104mg"
                 android:textSize="16dp" />
