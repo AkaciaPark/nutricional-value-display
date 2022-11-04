@@ -27,12 +27,12 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="123dp"
-                android:src="@drawable/fruits" />
+                android:src="@drawable/fruits_removebg_preview" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="29dp"
-                android:text="-------------"
+                android:text="- - - - - - - - - "
                 android:textColor="@color/black"
                 android:textStyle="bold" />
 
@@ -44,45 +44,46 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:src="@drawable/coconut" />
+                android:src="@drawable/coconut_removebg_preview" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
                 android:paddingTop="20dp"
-                android:src="@drawable/ponkam" />
+                android:src="@drawable/ponkam_removebg_preview" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="114dp"
                 android:paddingTop="15dp"
 
-                android:src="@drawable/grape" />
+                android:src="@drawable/grape_removebg_preview" />
 
             <ImageView
                 android:layout_width="79dp"
                 android:layout_height="104dp"
-                android:src="@drawable/strawberry" />
+                android:src="@drawable/strawberry_removebg_preview" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="108dp"
-                android:src="@drawable/pineapple" />
+                android:src="@drawable/pineapple_removebg_preview" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="123dp"
-                android:src="@drawable/mango" />
+                android:src="@drawable/mango_removebg_preview" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="106dp"
-                android:src="@drawable/pear" />
+                android:src="@drawable/pear_removebg_preview" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="119dp"
-                android:src="@drawable/watermelon" />
+                android:src="@drawable/watermelon_removebg_preview" />
 
 
         </LinearLayout>
@@ -106,7 +107,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="-------------------------------------------------------"
+                android:text=" - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
                 android:textColor="@color/black"
                 android:textStyle="bold" />
 
